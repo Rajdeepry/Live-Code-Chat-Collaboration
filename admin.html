@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <h1>🔧 Admin Dashboard</h1>
+        <button id="logout-btn">🚪 Logout</button>
+    </header>
+
+    <main>
+        <section class="user-management">
+            <h2>👥 User Management</h2>
+            <ul id="user-list">
+                <!-- Users will be dynamically added here -->
+            </ul>
+        </section>
+
+        <section class="chat-management">
+            <h2>💬 Chat Room Management</h2>
+            <button id="clear-chat-btn">🗑️ Clear Chat</button>
+        </section>
+
+        <section class="ban-management">
+            <h2>🚫 Ban Users</h2>
+            <ul id="ban-list">
+                <!-- Banned users will be listed here -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
+

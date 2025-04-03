@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Chat Room</title>
+    <link rel="stylesheet" href="after-join-room.css">
+</head>
+<body>
+    <header>
+        <h1>Private Chat Room</h1>
+        <p>Room ID: <span id="room-id"></span></p>
+        <button id="leave-room">Leave Room</button>
+    </header>
+
+    <div class="chat-container">
+        <div class="messages" id="messages"></div>
+        <div class="input-area">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="after-join-room.js"></script>
+</body>
+</html>
