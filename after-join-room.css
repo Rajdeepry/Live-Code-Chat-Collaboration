@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 8px;
+    margin: 5px;
+    background-color: #d1e7ff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.mention {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+.input-area {
+    margin-top: 10px;
+    display: flex;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Mention suggestion box */
+#mention-box {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    max-width: 200px;
+    display: none;
+}
+
+.mention-suggestion {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.mention-suggestion:hover {
+    background: #ddd;
+}
